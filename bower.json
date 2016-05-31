@@ -1,0 +1,10 @@
+{
+  "name": "02-AstroWeightCalculator-JQuery",
+  "main": "index.js",
+  "description": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "jquery": "^2.2.4"
+  }
+}

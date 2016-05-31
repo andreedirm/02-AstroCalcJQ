@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Astro Calc - JQ</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="jquery-2.2.3.js">
+    <h1>Astro Weight Calculator - JQ</h1>
+</head>
+
+<body>
+    <form action="javascript:calculate()">
+        <div>
+            <p>Your Weight</p>
+            <input type="text" id="yourWeight">
+        </div>
+        <div>
+            <p>Select a Planet</p>
+            <select>
+                <option value="27.9">The Sun</option>
+                <option value="0.377">Mercury</option>
+                <option value="0.9032">Venus</option>
+                <option value="1">Earth</option>
+                <option value="0.1655">The Moon</option>
+                <option value="0.3895">Mars</option>
+                <option value="2.640">Jupiter</option>
+                <option value="1.139">Saturn</option>
+                <option value="0.917">Uranus</option>
+                <option value="1.148">Neptune</option>
+                <option value="0.06">Pluto</option>
+            </select>
+        </div>
+        <button type="sumbit" id="button">Calculate</button>
+        <p id="output"></p>
+    </form>
+</body>
